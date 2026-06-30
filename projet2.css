@@ -14,8 +14,8 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 50px;
     align-items: center;
 }
@@ -43,7 +43,7 @@ nav .btn{
 .partie1{
     width: 100%;
     height: 50vh;
-    background-image: url(design.png);
+    background-image: url(image/design.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -63,6 +63,7 @@ nav .btn{
     color: white;
     font-size: 28px;
     padding: 40px;
+    padding-bottom: 350px;
 }
 .partie1 span{
     background-color: #42210B;
@@ -117,7 +118,7 @@ span{
 }
 .droite1{
     width: 40%;
-    background: url(design.png);
+    background: url(image/design.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 250%;
@@ -139,7 +140,7 @@ img{
 }
 .gauche2 img{
     transform: scaleX(-1);
-    background: url(design.png);
+    background: url(image/design.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 280%;
@@ -203,7 +204,7 @@ img{
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 170px;
+    padding-top: 230px;
 }
 .carres{
     display: flex;
@@ -293,7 +294,7 @@ img{
     display: grid;
 }
 .gauche p{
-    line-height: 5;
+    line-height: 3;
 }
 .gauche p span{
     background-color: #FF6600;
@@ -357,8 +358,12 @@ img{
 .sept img{
     width: 100px;
 }
+.bas .img{
+    padding-left: 13px;
+}
 .partie8{
     padding-top: 50px;
+    margin-bottom: 40px;
     width: 100%;
     height: 50vh;
     display: grid;
@@ -374,9 +379,9 @@ img{
     gap: 10px;
 }
 .item2{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     width: 400px;
-    height: 80%;
+    height: 100%;
     background-color: #F8F8F8;
 }
 .item2 .lorem{
@@ -397,16 +402,66 @@ img{
  line-height: 1;
 }
 .temoi .btgauche {
-    width: 120px;
+    width: 140px;
     padding-top: 140px;
 }
 .temoi .btdroite {
-    width: 120px;
+    width: 140px;
     padding-top: 140px;
 }
 .footer{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     margin-top: 100px;
     background-color: #FF6600;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footgauche .cts{
+    line-height: 2;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.footdroite{
+
+
+}
+.footdroite form{
+    display: flex;
+    gap: 10px;
+}
+.footdroite form .col1{
+    display: grid;
+}
+.footdroite form .col2{
+    display: grid;
+}
+form input{
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+}
+form input[type="text"]::placeholder,input[type="email"]::placeholder{
+
+}
+form label{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: white;
+}
+.footdroite .send input{
+    margin-top: 40px;
+    margin-left: 250px;
+    padding: 10px 90px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color: #42210B;
 }
